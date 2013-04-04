@@ -50,3 +50,32 @@
 @import 'ribbon';
 @import 'PortPage';
 @import 'Footer';
+
+//---------Mobile------------//
+@media (max-width: 600px) {
+.circle {
+
+	width: 200px;
+	height: 200px;
+
+	}
+	
+.hi {
+		
+		font-size: 30px;
+		
+		}
+
+.sub {
+		
+		font-size: 20px;;
+	 
+}
+
+.work {
+	
+	font-size: 60px;
+		
+}
+
+}
