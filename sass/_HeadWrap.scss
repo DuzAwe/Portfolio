@@ -1,0 +1,53 @@
+/*-------Head---------*/
+
+#headWrap {
+	padding-top: 5%;
+	color: black;
+	
+	h2{
+		color: black;
+		}
+	
+		p{
+			text-align: center;
+		
+			i{
+			font-size: 50px;
+		}
+		
+	}
+	
+}
+
+.circle {
+	background-image:url(../images/me.jpg);
+	display: block;
+	width: 350px;
+	height: 350px;
+	margin: 1em auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-border-radius: 99em;
+	-moz-border-radius: 99em;
+	border-radius: 99em;
+	border: 5px solid #eee;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+
+.hi {
+		font-weight: normal;
+		font-size: 80px;
+		text-align: center;
+		margin-bottom: 0;
+		color: black;
+		}
+
+.sub {
+		font-weight: normal;
+		font-size: 30px;;
+		text-align: center;
+		margin-bottom: 0;
+		color: black;
+		 
+}

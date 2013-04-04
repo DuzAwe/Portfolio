@@ -1,0 +1,32 @@
+.lead {
+  height: 750px;
+  width: 100%;
+  position: relative;
+  background-color: #eaeaea;
+}
+
+
+	
+#b {
+
+font-size: 30px;
+float: right;	
+display: block;
+font-weight: bold;
+text-decoration: none;
+z-index: 99;
+opacity: 0.9;
+}
+
+#b a i {
+color: #bfbfbf;
+-webkit-transition-property: all;
+-ms-transition-property: all;
+transition-property: all;
+-webkit-transition-duration: 1s;
+-ms-transition-duration: 1s;
+transition-duration: 1s;
+}
+
+
+#b a:hover i { text-decoration: none; color:#2795b6; }

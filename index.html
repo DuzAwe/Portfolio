@@ -5,9 +5,10 @@
 
 <head>
 	<meta charset="utf-8" />
-  <meta name="viewport" content="width=480, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width"/>
   <link href='http://fonts.googleapis.com/css?family=Alegreya:400&subset=latin' rel='stylesheet' type='text/css'>
-  <title>Foundation 4</title>
+  <title>Conor Hughes</title>
   
   <link rel="stylesheet" href="stylesheets/normalize.css" />
   
@@ -16,7 +17,8 @@
   <link rel="stylesheet" href="stylesheets/arrow.css">
   
   <!--[if IE 7]><link rel="stylesheet" href="stylesheets/arrow-ie7.css"><![endif]-->
-
+  
+  
   <script src="javascripts/vendor/custom.modernizr.js"></script>
 
 </head>
@@ -35,10 +37,11 @@
 				<h3 class="sub">-Designer-</h3>
 				
 				<div class="pulse">
-				<p>
+				<p><a href="#port">
 				<i class="icon-down-circled"></i>
 				</br>
 				Scroll To See More
+				</a>
 				</p>
 				</div>
 			</div>
@@ -48,9 +51,9 @@
 	
 	<div id="bg2" class="slide">
 	<div class="row">
-		<div class="large-12 columns">
+		<div id="port" class="large-12 columns">
 			<div id="PortGrid">
-				<h2 class="work">Work</h2>
+				<h2 class="work">Portfolio</h2>
 			</div>
 			<div class="sexy_line"></div>
 			</div>
@@ -58,12 +61,12 @@
 			<ul class="small-block-grid-3 large-block-grid-3">
 				<li><a href="dylan.html" class="transition"><img src="images/Port/dylan.png"></a></li>
 				<li><a href="pdt.html" class="transition"><img src="images/Port/GDLogo.png"></a></li>
-				<li><a href="pdt.html" class="transition"><img src="images/Port/ddl.png"></a></li>
+				<li><a href="ddc.html" class="transition"><img src="images/Port/ddl.png"></a></li>
 			</ul>
 			<!-- Using both block grids together for different layouts -->
 			<ul class="small-block-grid-3 large-block-grid-3">
-				<li><img src="images/Port/oly.png"></li>
-				<li><img src="images/Port/tears.png"></li>
+				<li><a href="oly.html" class="transition"><img src="images/Port/oly.png"></a></li>
+				<li><a href="blade.html" class="transition"><img src="images/Port/tears.png"></a></li>
 				<li><img src="http://placehold.it/350x250"></li>
 			</ul>
 				</div>
@@ -106,9 +109,14 @@ pretty close to the chest.<br><br>I had a vision of a world without Batman. The 
   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   	<script>window.jQuery || document.write('<script src="javascripts/jquery.min.js"><\/script>')</script>
   	
+  	
+
+  	
     <script src="javascripts/Custom/fade.js"></script>
     
     <script src="javascripts/Custom/pulse.js"></script>
+    
+    
     
   	<script src="javascripts/foundation/foundation.js"></script>
 	
@@ -142,6 +150,74 @@ pretty close to the chest.<br><br>I had a vision of a world without Batman. The 
   <script>
     $(document).foundation();
   </script>
+
+<script>
+	$(function() {
+	
+		function filterPath(string) {
+			return string
+			.replace(/^\//,'')
+			.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+			.replace(/\/$/,'');
+		}
+	
+		var locationPath = filterPath(location.pathname);
+		var scrollElem = scrollableElement('html', 'body');
+	
+		// Any links with hash tags in them (can't do ^= because of fully qualified URL potential)
+		$('a[href*=#]').each(function() {
+	
+			// Ensure it's a same-page link
+			var thisPath = filterPath(this.pathname) || locationPath;
+			if (  locationPath == thisPath
+				&& (location.hostname == this.hostname || !this.hostname)
+				&& this.hash.replace(/#/,'') ) {
+	
+					// Ensure target exists
+					var $target = $(this.hash), target = this.hash;
+					if (target) {
+	
+						// Find location of target
+						var targetOffset = $target.offset().top;
+						$(this).click(function(event) {
+	
+							// Prevent jump-down
+							event.preventDefault();
+	
+							// Animate to target
+							$(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+	
+								// Set hash in URL after animation successful
+								location.hash = target;
+	
+							});
+						});
+					}
+			}
+	
+		});
+	
+		// Use the first element that is "scrollable"  (cross-browser fix?)
+		function scrollableElement(els) {
+			for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+				var el = arguments[i],
+				$scrollElement = $(el);
+				if ($scrollElement.scrollTop()> 0) {
+					return el;
+				} else {
+					$scrollElement.scrollTop(1);
+					var isScrollable = $scrollElement.scrollTop()> 0;
+					$scrollElement.scrollTop(0);
+					if (isScrollable) {
+						return el;
+					}
+				}
+			}
+			return [];
+		}
+	
+	});
+	</script>
 
 </body>
 </html>
