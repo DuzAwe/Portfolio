@@ -3,12 +3,18 @@
 
 		p{
 			text-align: center;
-			
+			color: white;
 			
 			}
 			
-		
-		
+			a{
+				color: white;
+		}
+			i{
+			
+			color: white;
+			
+			}
 	}
 .about {
 	font-weight: normal;
@@ -25,6 +31,5 @@
     height: 1px;
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#eee), to(#eee), color-stop(50%, #aaa));
-
 
 }

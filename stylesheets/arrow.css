@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'arrow';
-  src: url("../font/arrow.eot?43098147");
-  src: url("../font/arrow.eot?43098147#iefix") format('embedded-opentype'), url("../font/arrow.woff?43098147") format('woff'), url("../font/arrow.ttf?43098147") format('truetype'), url("../font/arrow.svg?43098147#arrow") format('svg');
+  src: url("../font/arrow.eot?60685288");
+  src: url("../font/arrow.eot?60685288#iefix") format('embedded-opentype'), url("../font/arrow.woff?60685288") format('woff'), url("../font/arrow.ttf?60685288") format('truetype'), url("../font/arrow.svg?60685288#arrow") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'arrow';
-    src: url('../font/arrow.svg?43098147#arrow') format('svg');
+    src: url('../font/arrow.svg?60685288#arrow') format('svg');
   }
 }
 */
@@ -41,6 +41,7 @@
 /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
+.icon-mail:before { content: '\2709'; } /* '✉' */
 .icon-left-circled:before { content: '\f0a8'; } /* '' */
 .icon-right-circled:before { content: '\f0a9'; } /* '' */
 .icon-up-circled:before { content: '\f0aa'; } /* '' */

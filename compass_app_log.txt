@@ -678,3 +678,71 @@
 2013-04-05 17:47:11    create stylesheets/app.css 
 2013-04-05 17:47:11    create stylesheets/mother.css 
 2013-04-05 17:47:11    create stylesheets/normalize.css 
+2013-04-08 14:40:45 overwrite stylesheets/app.css 
+2013-04-08 14:41:41 overwrite stylesheets/app.css 
+2013-04-08 14:41:48 overwrite stylesheets/app.css 
+2013-04-08 14:41:58 overwrite stylesheets/app.css 
+2013-04-08 14:42:05 overwrite stylesheets/app.css 
+2013-04-08 14:42:14 overwrite stylesheets/app.css 
+2013-04-08 14:42:18 overwrite stylesheets/app.css 
+2013-04-08 14:42:29 overwrite stylesheets/app.css 
+2013-04-08 14:48:02 overwrite stylesheets/app.css 
+2013-04-08 14:48:44 overwrite stylesheets/app.css 
+2013-04-08 14:51:21 overwrite stylesheets/app.css 
+2013-04-08 14:52:47 overwrite stylesheets/app.css 
+2013-04-08 14:53:49 overwrite stylesheets/app.css 
+2013-04-08 14:54:44 overwrite stylesheets/app.css 
+2013-04-08 14:54:59 overwrite stylesheets/app.css 
+2013-04-08 14:56:39 overwrite stylesheets/app.css 
+2013-04-08 14:57:12 overwrite stylesheets/app.css 
+2013-04-08 15:09:58 identical stylesheets/app.css 
+2013-04-08 15:10:09 overwrite stylesheets/app.css 
+2013-04-08 15:10:27 overwrite stylesheets/app.css 
+2013-04-08 15:10:34 overwrite stylesheets/app.css 
+2013-04-08 15:12:13     error sass/app.scss (Line 12 of sass/_HeadWrap.scss: Invalid CSS after "	pa": expected "{", was "}")
+2013-04-08 15:12:13 overwrite stylesheets/app.css 
+2013-04-08 15:12:33     error sass/app.scss (Line 12 of sass/_HeadWrap.scss: Invalid CSS after "	pa": expected "{", was "}")
+2013-04-08 15:12:33 identical stylesheets/app.css 
+2013-04-08 15:12:44     error sass/app.scss (Line 12 of sass/_HeadWrap.scss: Invalid CSS after "	pa": expected "{", was "}")
+2013-04-08 15:12:44 identical stylesheets/app.css 
+2013-04-08 15:13:00 overwrite stylesheets/app.css 
+2013-04-08 15:14:15 overwrite stylesheets/app.css 
+2013-04-08 15:14:29 overwrite stylesheets/app.css 
+2013-04-08 15:14:39 overwrite stylesheets/app.css 
+2013-04-08 15:14:45 overwrite stylesheets/app.css 
+2013-04-08 15:14:57 overwrite stylesheets/app.css 
+2013-04-08 15:15:02 overwrite stylesheets/app.css 
+2013-04-08 15:15:18 overwrite stylesheets/app.css 
+2013-04-08 15:16:08 overwrite stylesheets/app.css 
+2013-04-08 15:16:22 overwrite stylesheets/app.css 
+2013-04-08 15:16:29 identical stylesheets/app.css 
+2013-04-08 15:16:44     error sass/app.scss (Line 60 of sass/_HeadWrap.scss: Invalid CSS after "	margin-bottom": expected ";", was ": 0;")
+2013-04-08 15:16:44 overwrite stylesheets/app.css 
+2013-04-08 15:16:46 overwrite stylesheets/app.css 
+2013-04-08 15:39:28 overwrite stylesheets/app.css 
+2013-04-08 15:39:36 overwrite stylesheets/app.css 
+2013-04-08 16:24:38 overwrite stylesheets/app.css 
+2013-04-08 19:52:01     error sass/app.scss (Line 43 of sass/_about.scss: Invalid CSS after "}": expected "}", was "")
+2013-04-08 19:52:01 overwrite stylesheets/app.css 
+2013-04-08 19:52:12     error sass/app.scss (Line 40 of sass/_about.scss: Invalid CSS after "}": expected "}", was "")
+2013-04-08 19:52:12 overwrite stylesheets/app.css 
+2013-04-08 19:52:33     error sass/app.scss (Line 39 of sass/_about.scss: Invalid CSS after "}": expected "}", was "")
+2013-04-08 19:52:33 overwrite stylesheets/app.css 
+2013-04-08 19:52:44     error sass/app.scss (Line 36 of sass/_about.scss: Invalid CSS after "}": expected "}", was "")
+2013-04-08 19:52:44 overwrite stylesheets/app.css 
+2013-04-08 19:53:01 overwrite stylesheets/app.css 
+2013-04-08 19:53:16 overwrite stylesheets/app.css 
+2013-04-08 19:53:38 overwrite stylesheets/app.css 
+2013-04-08 19:54:32 overwrite stylesheets/app.css 
+2013-04-08 19:54:37 identical stylesheets/app.css 
+2013-04-08 19:55:28    remove .sass-cache/ 
+2013-04-08 19:55:28    remove stylesheets/app.css 
+2013-04-08 19:55:28    remove stylesheets/mother.css 
+2013-04-08 19:55:28    remove stylesheets/normalize.css 
+2013-04-08 19:55:29    create stylesheets/app.css 
+2013-04-08 19:55:29    create stylesheets/mother.css 
+2013-04-08 19:55:29    create stylesheets/normalize.css 
+2013-04-08 19:55:55 overwrite stylesheets/app.css 
+2013-04-08 19:56:11 overwrite stylesheets/app.css 
+2013-04-08 19:56:24 overwrite stylesheets/app.css 
+2013-04-08 19:57:08 overwrite stylesheets/app.css 

@@ -1,4 +1,5 @@
-
+/* Do you speak German? No? Then STOP USING HELVETICA. */
+/* Do you speak German? No? Then STOP USING HELVETICA. */
 /* line 4, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_global.scss */
 *,
 *:before,
@@ -1753,19 +1754,19 @@ body, html {
 #headWrap {
   padding-top: 5%;
   color: black; }
-  /* line 9, ../sass/_HeadWrap.scss */
+  /* line 7, ../sass/_HeadWrap.scss */
   #headWrap p {
     text-align: center;
     color: black; }
-    /* line 12, ../sass/_HeadWrap.scss */
+    /* line 10, ../sass/_HeadWrap.scss */
     #headWrap p a {
       color: black; }
-      /* line 15, ../sass/_HeadWrap.scss */
+      /* line 13, ../sass/_HeadWrap.scss */
       #headWrap p a i {
         font-size: 40px;
         color: black; }
 
-/* line 27, ../sass/_HeadWrap.scss */
+/* line 25, ../sass/_HeadWrap.scss */
 .circle {
   background-image: url(../images/me.jpg);
   display: block;
@@ -1781,7 +1782,7 @@ body, html {
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); }
 
-/* line 43, ../sass/_HeadWrap.scss */
+/* line 41, ../sass/_HeadWrap.scss */
 .hi {
   font-weight: normal;
   font-size: 60px;
@@ -1789,11 +1790,17 @@ body, html {
   margin-bottom: 0;
   color: black; }
 
-/* line 51, ../sass/_HeadWrap.scss */
+/* line 49, ../sass/_HeadWrap.scss */
 .sub {
   font-weight: normal;
   font-size: 30px;
   text-align: center;
+  margin-bottom: 0;
+  color: black; }
+
+/* line 58, ../sass/_HeadWrap.scss */
+.contact {
+  margin-top: 2em;
   margin-bottom: 0;
   color: black; }
 
@@ -1901,9 +1908,16 @@ body, html {
   padding-top: 5%; }
   /* line 4, ../sass/_about.scss */
   #about p {
-    text-align: center; }
+    text-align: center;
+    color: white; }
+  /* line 10, ../sass/_about.scss */
+  #about a {
+    color: white; }
+  /* line 13, ../sass/_about.scss */
+  #about i {
+    color: white; }
 
-/* line 13, ../sass/_about.scss */
+/* line 19, ../sass/_about.scss */
 .about {
   font-weight: normal;
   font-size: 80px;
@@ -1912,7 +1926,7 @@ body, html {
   color: #fff;
   opacity: 0.5; }
 
-/* line 23, ../sass/_about.scss */
+/* line 29, ../sass/_about.scss */
 .sexy_line {
   margin: 0 0 30px 0;
   height: 1px;
@@ -1939,4 +1953,8 @@ body, html {
 
   /* line 82, ../sass/app.scss */
   .about {
-    font-size: 60px; } }
+    font-size: 60px; }
+
+  /* line 88, ../sass/app.scss */
+  #bg3 {
+    height: auto; } }
