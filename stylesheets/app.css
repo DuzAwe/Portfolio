@@ -1,5 +1,4 @@
-/* Do you speak German? No? Then STOP USING HELVETICA. */
-/* Do you speak German? No? Then STOP USING HELVETICA. */
+
 /* line 4, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_global.scss */
 *,
 *:before,
@@ -1575,6 +1574,57 @@ blockquote p {
     .inline-list > li > * {
       display: block; }
 
+/* Pricing Tables */
+/* line 120, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_pricing-tables.scss */
+.pricing-table {
+  border: solid 1px #dddddd;
+  margin-left: 0;
+  margin-bottom: 1.25em; }
+  /* line 60, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_pricing-tables.scss */
+  .pricing-table * {
+    list-style: none;
+    line-height: 1; }
+  /* line 123, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_pricing-tables.scss */
+  .pricing-table .title {
+    background-color: #dddddd;
+    padding: 0.9375em 1.25em;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 1em; }
+  /* line 124, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_pricing-tables.scss */
+  .pricing-table .price {
+    background-color: #eeeeee;
+    padding: 0.9375em 1.25em;
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    font-size: 1.25em; }
+  /* line 125, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_pricing-tables.scss */
+  .pricing-table .description {
+    background-color: white;
+    padding: 0.9375em;
+    text-align: center;
+    color: #777777;
+    font-size: 0.75em;
+    font-weight: normal;
+    line-height: 1.4;
+    border-bottom: dotted 1px #dddddd; }
+  /* line 126, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_pricing-tables.scss */
+  .pricing-table .bullet-item {
+    background-color: white;
+    padding: 0.9375em;
+    text-align: center;
+    color: #333333;
+    font-size: 0.875em;
+    font-weight: normal;
+    border-bottom: dotted 1px #dddddd; }
+  /* line 127, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_pricing-tables.scss */
+  .pricing-table .cta-button {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1.25em 1.25em 0; }
+
 /* Tooltips */
 /* line 27, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.0.8/scss/foundation/components/_tooltips.scss */
 .has-tip {
@@ -1703,22 +1753,19 @@ body, html {
 #headWrap {
   padding-top: 5%;
   color: black; }
-  /* line 7, ../sass/_HeadWrap.scss */
-  #headWrap h2 {
-    color: black; }
-  /* line 11, ../sass/_HeadWrap.scss */
+  /* line 9, ../sass/_HeadWrap.scss */
   #headWrap p {
     text-align: center;
     color: black; }
-    /* line 14, ../sass/_HeadWrap.scss */
+    /* line 12, ../sass/_HeadWrap.scss */
     #headWrap p a {
       color: black; }
-      /* line 17, ../sass/_HeadWrap.scss */
+      /* line 15, ../sass/_HeadWrap.scss */
       #headWrap p a i {
-        font-size: 50px;
+        font-size: 40px;
         color: black; }
 
-/* line 29, ../sass/_HeadWrap.scss */
+/* line 27, ../sass/_HeadWrap.scss */
 .circle {
   background-image: url(../images/me.jpg);
   display: block;
@@ -1734,15 +1781,15 @@ body, html {
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); }
 
-/* line 45, ../sass/_HeadWrap.scss */
+/* line 43, ../sass/_HeadWrap.scss */
 .hi {
   font-weight: normal;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   margin-bottom: 0;
   color: black; }
 
-/* line 53, ../sass/_HeadWrap.scss */
+/* line 51, ../sass/_HeadWrap.scss */
 .sub {
   font-weight: normal;
   font-size: 30px;
@@ -1849,20 +1896,47 @@ body, html {
     #copyright li a {
       color: #fff; }
 
+/* line 1, ../sass/_about.scss */
+#about {
+  padding-top: 5%; }
+  /* line 4, ../sass/_about.scss */
+  #about p {
+    text-align: center; }
+
+/* line 13, ../sass/_about.scss */
+.about {
+  font-weight: normal;
+  font-size: 80px;
+  text-align: center;
+  margin: 0 0 0 0;
+  color: #fff;
+  opacity: 0.5; }
+
+/* line 23, ../sass/_about.scss */
+.sexy_line {
+  margin: 0 0 30px 0;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#eeeeee), to(#eeeeee), color-stop(50%, #aaaaaa)); }
+
 @media (max-width: 600px) {
-  /* line 56, ../sass/app.scss */
+  /* line 57, ../sass/app.scss */
   .circle {
     width: 200px;
     height: 200px; }
 
-  /* line 63, ../sass/app.scss */
+  /* line 64, ../sass/app.scss */
   .hi {
     font-size: 30px; }
 
-  /* line 69, ../sass/app.scss */
+  /* line 70, ../sass/app.scss */
   .sub {
     font-size: 20px; }
 
-  /* line 75, ../sass/app.scss */
+  /* line 76, ../sass/app.scss */
   .work {
+    font-size: 60px; }
+
+  /* line 82, ../sass/app.scss */
+  .about {
     font-size: 60px; } }

@@ -644,3 +644,37 @@
 2013-04-04 18:57:51    create stylesheets/app.css 
 2013-04-04 18:57:51    create stylesheets/mother.css 
 2013-04-04 18:57:51    create stylesheets/normalize.css 
+2013-04-05 15:20:42 overwrite stylesheets/app.css 
+2013-04-05 15:26:41    remove .sass-cache/ 
+2013-04-05 15:26:41    remove stylesheets/app.css 
+2013-04-05 15:26:41    remove stylesheets/mother.css 
+2013-04-05 15:26:41    remove stylesheets/normalize.css 
+2013-04-05 15:26:43    create stylesheets/app.css 
+2013-04-05 15:26:43    create stylesheets/mother.css 
+2013-04-05 15:26:43    create stylesheets/normalize.css 
+2013-04-05 15:32:01 overwrite stylesheets/app.css 
+2013-04-05 15:32:16 overwrite stylesheets/app.css 
+2013-04-05 15:33:52 overwrite stylesheets/app.css 
+2013-04-05 15:34:43     error sass/app.scss (Line 27 of sass/_HeadWrap.scss: Invalid CSS after "		}": expected selector or at-rule, was "}")
+2013-04-05 15:34:43 overwrite stylesheets/app.css 
+2013-04-05 15:34:57 overwrite stylesheets/app.css 
+2013-04-05 15:35:16 overwrite stylesheets/app.css 
+2013-04-05 15:35:21 overwrite stylesheets/app.css 
+2013-04-05 15:53:47 overwrite stylesheets/app.css 
+2013-04-05 15:54:21 overwrite stylesheets/app.css 
+2013-04-05 17:44:31     error sass/app.scss (Line 17 of sass/_about.scss: Invalid CSS after "		}": expected selector or at-rule, was "}")
+2013-04-05 17:44:31 overwrite stylesheets/app.css 
+2013-04-05 17:44:46     error sass/app.scss (Line 13 of sass/_about.scss: Invalid CSS after "		}": expected selector or at-rule, was "}")
+2013-04-05 17:44:46 overwrite stylesheets/app.css 
+2013-04-05 17:44:51 overwrite stylesheets/app.css 
+2013-04-05 17:44:57 overwrite stylesheets/app.css 
+2013-04-05 17:45:07 overwrite stylesheets/app.css 
+2013-04-05 17:45:21 overwrite stylesheets/app.css 
+2013-04-05 17:46:55 overwrite stylesheets/app.css 
+2013-04-05 17:47:10    remove .sass-cache/ 
+2013-04-05 17:47:10    remove stylesheets/app.css 
+2013-04-05 17:47:10    remove stylesheets/mother.css 
+2013-04-05 17:47:10    remove stylesheets/normalize.css 
+2013-04-05 17:47:11    create stylesheets/app.css 
+2013-04-05 17:47:11    create stylesheets/mother.css 
+2013-04-05 17:47:11    create stylesheets/normalize.css 
