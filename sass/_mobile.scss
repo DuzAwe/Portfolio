@@ -43,13 +43,34 @@
 		
 }
 
+.ribbon {
+    background: #eee;
+    border-left: 1px dashed #aaa;
+    border-right: 1px dashed #aaa;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 5px 0 0 #eee,
+                -5px 0 0 #eee;
+    height: 30px;
+    margin: 0 5px;
+    position: relative;
+    width: 90px;
+    -webkit-filter: drop-shadow(0 2px 5px hsla(0,0%,0%,.5));
+    a{
+	    margin-left: 27%;
+	    line-height: 40px;
+	    color: #000;
+	    opacity: 0.5;
+    }
+}
+
+
 #bg3,#bg2 {
 	height: auto;
 	width: auto;
 }
 
 #bg1{
-		height: 480px;
+		height: 490px;
 		width: auto;
 	}
 

@@ -1741,6 +1741,8 @@ body, html {
 
 /* line 20, ../sass/_BG.scss */
 #bg3 {
+  height: auto;
+  padding-bottom: 60px;
   background-image: url(../images/2.png);
   background-repeat: repeat;
   background-position: top left;
@@ -1767,6 +1769,22 @@ body, html {
         color: black; }
 
 /* line 25, ../sass/_HeadWrap.scss */
+#headWrap2 {
+  padding-top: 12%;
+  color: black; }
+  /* line 29, ../sass/_HeadWrap.scss */
+  #headWrap2 p {
+    text-align: center;
+    color: black; }
+    /* line 32, ../sass/_HeadWrap.scss */
+    #headWrap2 p a {
+      color: black; }
+      /* line 35, ../sass/_HeadWrap.scss */
+      #headWrap2 p a i {
+        font-size: 40px;
+        color: black; }
+
+/* line 47, ../sass/_HeadWrap.scss */
 .circle {
   background-image: url(../images/me.jpg);
   display: block;
@@ -1782,7 +1800,7 @@ body, html {
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); }
 
-/* line 41, ../sass/_HeadWrap.scss */
+/* line 63, ../sass/_HeadWrap.scss */
 .hi {
   font-weight: normal;
   font-size: 60px;
@@ -1790,7 +1808,7 @@ body, html {
   margin-bottom: 0;
   color: black; }
 
-/* line 49, ../sass/_HeadWrap.scss */
+/* line 71, ../sass/_HeadWrap.scss */
 .sub {
   font-weight: normal;
   font-size: 30px;
@@ -1798,7 +1816,7 @@ body, html {
   margin-bottom: 0;
   color: black; }
 
-/* line 58, ../sass/_HeadWrap.scss */
+/* line 80, ../sass/_HeadWrap.scss */
 .contact {
   margin-top: 2em;
   margin-bottom: 0;
@@ -1870,14 +1888,17 @@ body, html {
 #b {
   font-size: 30px;
   float: right;
-  display: block;
+  display: inline-block;
   font-weight: bold;
   text-decoration: none;
   z-index: 99;
   opacity: 0.9; }
 
-/* line 21, ../sass/_PortPage.scss */
-#b a i {
+/* line 22, ../sass/_PortPage.scss */
+#b a {
+  width: 144px;
+  height: 44px;
+  position: relative;
   color: #bfbfbf;
   -webkit-transition-property: all;
   -ms-transition-property: all;
@@ -1886,8 +1907,8 @@ body, html {
   -ms-transition-duration: 1s;
   transition-duration: 1s; }
 
-/* line 32, ../sass/_PortPage.scss */
-#b a:hover i {
+/* line 37, ../sass/_PortPage.scss */
+#b a:hover {
   text-decoration: none;
   color: #2795b6; }
 
@@ -1923,13 +1944,14 @@ body, html {
 
 /* line 1, ../sass/_Footer.scss */
 #copyright {
+  padding-bottom: 30px;
   background: #3f3f3f;
   color: #fff;
   padding: 11px 0; }
-  /* line 5, ../sass/_Footer.scss */
+  /* line 6, ../sass/_Footer.scss */
   #copyright li {
     color: #fff; }
-    /* line 7, ../sass/_Footer.scss */
+    /* line 8, ../sass/_Footer.scss */
     #copyright li a {
       color: #fff; }
 
@@ -1960,11 +1982,30 @@ body, html {
     font-size: 60px; }
 
   /* line 46, ../sass/_mobile.scss */
+  .ribbon {
+    background: #eee;
+    border-left: 1px dashed #aaa;
+    border-right: 1px dashed #aaa;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 5px 0 0 #eee, -5px 0 0 #eee;
+    height: 30px;
+    margin: 0 5px;
+    position: relative;
+    width: 90px;
+    -webkit-filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5)); }
+    /* line 58, ../sass/_mobile.scss */
+    .ribbon a {
+      margin-left: 27%;
+      line-height: 40px;
+      color: #000;
+      opacity: 0.5; }
+
+  /* line 67, ../sass/_mobile.scss */
   #bg3, #bg2 {
     height: auto;
     width: auto; }
 
-  /* line 51, ../sass/_mobile.scss */
+  /* line 72, ../sass/_mobile.scss */
   #bg1 {
-    height: 480px;
+    height: 490px;
     width: auto; } }
