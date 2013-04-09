@@ -1891,18 +1891,6 @@ body, html {
   text-decoration: none;
   color: #2795b6; }
 
-/* line 1, ../sass/_Footer.scss */
-#copyright {
-  background: #3f3f3f;
-  color: #fff;
-  padding: 11px 0; }
-  /* line 5, ../sass/_Footer.scss */
-  #copyright li {
-    color: #fff; }
-    /* line 7, ../sass/_Footer.scss */
-    #copyright li a {
-      color: #fff; }
-
 /* line 1, ../sass/_about.scss */
 #about {
   padding-top: 5%; }
@@ -1933,28 +1921,50 @@ body, html {
   background: black;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#eeeeee), to(#eeeeee), color-stop(50%, #aaaaaa)); }
 
+/* line 1, ../sass/_Footer.scss */
+#copyright {
+  background: #3f3f3f;
+  color: #fff;
+  padding: 11px 0; }
+  /* line 5, ../sass/_Footer.scss */
+  #copyright li {
+    color: #fff; }
+    /* line 7, ../sass/_Footer.scss */
+    #copyright li a {
+      color: #fff; }
+
+@media only screen and (orientation: landscape) {
+  /* line 5, ../sass/_mobile.scss */
+  #bg1 {
+    height: 760px; } }
 @media (max-width: 600px) {
-  /* line 57, ../sass/app.scss */
+  /* line 15, ../sass/_mobile.scss */
   .circle {
     width: 200px;
     height: 200px; }
 
-  /* line 64, ../sass/app.scss */
+  /* line 22, ../sass/_mobile.scss */
   .hi {
     font-size: 30px; }
 
-  /* line 70, ../sass/app.scss */
+  /* line 28, ../sass/_mobile.scss */
   .sub {
     font-size: 20px; }
 
-  /* line 76, ../sass/app.scss */
+  /* line 34, ../sass/_mobile.scss */
   .work {
     font-size: 60px; }
 
-  /* line 82, ../sass/app.scss */
+  /* line 40, ../sass/_mobile.scss */
   .about {
     font-size: 60px; }
 
-  /* line 88, ../sass/app.scss */
-  #bg3 {
-    height: auto; } }
+  /* line 46, ../sass/_mobile.scss */
+  #bg3, #bg2 {
+    height: auto;
+    width: auto; }
+
+  /* line 51, ../sass/_mobile.scss */
+  #bg1 {
+    height: 480px;
+    width: auto; } }

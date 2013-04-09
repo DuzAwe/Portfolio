@@ -49,45 +49,6 @@
 @import 'PortGrid';
 @import 'ribbon';
 @import 'PortPage';
-@import 'Footer';
 @import 'about';
-
-//---------Mobile------------//
-@media (max-width: 600px) {
-.circle {
-
-	width: 200px;
-	height: 200px;
-
-	}
-	
-.hi {
-		
-		font-size: 30px;
-		
-		}
-
-.sub {
-		
-		font-size: 20px;;
-	 
-}
-
-.work {
-	
-	font-size: 60px;
-		
-}
-
-.about {
-	
-	font-size: 60px;
-		
-}
-
-#bg3 {
-	height: auto;
-}
-
-
-}
+@import 'Footer';
+@import 'mobile';
